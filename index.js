@@ -21,7 +21,7 @@ server.use(express.urlencoded({ limit: "50mb", extended: true }));
 
 // CORS configuration
 const corsOptions = {
-  origin: "https://marasimpex.com",
+  origin: "https://addrupee.com",
   methods: "GET, POST, PUT, PATCH, DELETE, HEAD",
   credentials: true,
 };
